@@ -1,0 +1,37 @@
+#Searchcontaner{
+    padding: 0% 5%;
+}
+#message{
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#searchForm{
+    height: 5vh;
+}
+#searchBar{
+    background-color: #EEE;
+    height: 5vh;
+    width: 60%;
+    border-radius: 15px 0px 0px 15px;
+    border: 0.2px solid black ;
+}
+#searchbtn{
+    height: 5vh;
+    width: 10%;
+    border-radius: 0px 15px 15px 0px;
+    border: 0.2px solid black ;
+    background-color: #222;
+    color: #fff;
+    text-wrap: nowrap;
+    overflow:hidden;
+}
+#Select{
+    height: 5vh;
+    margin-left: 18%;
+    width: 12%;
+    border-radius:5px;
+    border: 0.2px solid black ;
+    color: #000;
+}

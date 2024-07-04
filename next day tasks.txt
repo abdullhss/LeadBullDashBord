@@ -1,0 +1,9 @@
+this is the final version of LeadBull broject 
+
+* make the dashbord responsive 
+
+* solve the last row bug (dose not appere untill scroll)
+
+* make log in page
+
+* solve the bug of table (the h5 -header of cell- not allignment in mopile view)

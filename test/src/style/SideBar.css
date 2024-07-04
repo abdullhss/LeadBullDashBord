@@ -1,0 +1,30 @@
+.sideBarNav {
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: radial-gradient(100% 50% at 0% 50%, rgb(14, 23, 75) 1%, #000000 77%);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height:100vh;
+    position: sticky;
+    top: 0px;
+}
+.sideBarNav a{
+    color: white;
+}
+.UserName{
+    color: white;
+}
+.UserName:hover{
+    color: #CCC;
+}
+#leadbullLogo{
+    max-width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 1024px) {
+    .sideBarNav{
+        display: none ; /* toggle it to mke the side bar appere */
+    }
+}  
