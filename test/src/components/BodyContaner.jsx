@@ -5,10 +5,10 @@ import BurgerIcone from "./BurgerIcone.jsx"
 
 import "../style/BodyContaner.css"
 
-export default function BodyContaner(){
+export default function BodyContaner({toggleSidebar}){
     return(
         <div id="BodyContainer">
-            <BurgerIcone></BurgerIcone>
+            <BurgerIcone toggleSidebar={toggleSidebar}></BurgerIcone>
             <NavBar></NavBar>
             <SearchWithText></SearchWithText>
             <Table></Table>

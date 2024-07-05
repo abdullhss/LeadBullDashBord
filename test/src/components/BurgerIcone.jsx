@@ -1,7 +1,9 @@
 import '../style/BurgerIcone.css'
-export default function BurgerIcone(){
+import '../style/SideBar.css'
+export default function BurgerIcone({toggleSidebar}){
+    
     return(
-        <div id="BurgerIcone">
+        <div id="BurgerIcone" onClick={toggleSidebar}>
             <div className="bar"></div>
             <div className="bar"></div>
             <div className="bar"></div>
